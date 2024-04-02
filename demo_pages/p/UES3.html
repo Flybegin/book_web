@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link type="text/css" rel="stylesheet" href="/ues/theme/default/css/bme.main.min_zh.css?V300R002C02B083" />
+<script type="text/javascript" src="/ues/theme/default/js/bme.main.min.js?V300R002C02B083"></script>
+
+
+<script type="text/javascript">
+	//new sysmenuData
+	var sysmenuData = { id: "systemMenu", 
+						showHistory: true,
+						historyTitle: "最近操作",
+						hasSearch: false,
+						//subProj:[
+						//],
+						systemMenu:[
+							{id: 'MENU_UES_CONSOLE_PORTAL', name :'门户管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_PORTAL_PAGE_COMPONENT', name :'组件页面管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_page_component_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_COMPONENTS', name :'组件管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_component_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PAGE', name :'页面管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_page_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_FRAGMENT_TEMPLATE', name :'碎片母板管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_fragmentTemplate_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_SITE', name :'站点管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_site_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_DISTRIBUTARY', name :'页面分流规则管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_distributary_rule_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_FRAGMENT_RULE', name :'碎片适配规则管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_fragment_adapter_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PAGE_CONFIG', name :'功能页面配置管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_page_config_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_BUSINESSFORMAT', name :'业务版式管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_business_format_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_GADGETMANAGER', name :'碎片管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_fragment_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PARAM', name :'门户参数管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_portal_config_tree&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PAGESTYLE', name :'页面风格管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_pageStyle_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_TESTUSER', name :'内测用户管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_testUser_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_CACHERULE', name :'页面缓存规则管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_cacheRule_mgr&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_DIMENSIONALITY', name :'维度管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_DIMENSIONALITY_BROWSERGROUP', name :'浏览器管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_browser_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_DIMENSIONALITY_SCREENWIDTH', name :'屏宽管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_screenwidth_manager&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_DIMENSIONALITY_TERMINALGROUP', name :'终端屏宽分组管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_terminalGroup_manager&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_DATASRC', name :'数据源管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_DATASRC_SYSTEM', name :'系统数据源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_datasrc_catalog_mgr&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_RESOURCE', name :'资源管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_RESOURCE_PICTURE', name :'图片资源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_pic&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_CSS', name :'样式资源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_css&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_JS', name :'脚本资源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_js&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_FILEPACKAGE', name :'文件包管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_filepackage&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_LAYOUT', name :'布局管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_layout&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_SECURITY', name :'安全管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_SECURITY_ORG', name :'组织管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_org_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_USER', name :'用户管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_user_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_ROLE', name :'角色管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_role_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_PERSONALINFO', name :'个人信息', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_personalInfo_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_PASSWORD', name :'修改密码', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_password_mgr&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_SYSMANAGER', name :'系统管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_SYSMANAGER_OPERATERECORD', name :'操作日志', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_operate_record&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SYSMANAGER_USERLOGINLOG', name :'登录日志', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_user_login_log&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SYSMANAGER_SYSTEMCONFIG', name :'系统参数管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_system_config&BMEWebToken=null', children:[]}]}
+
+							]
+				   };
+	
+	var menuData = {
+		id: "tabmenu",
+		data: [
+				{id: 'MENU_UES_CONSOLE_PORTAL', name :'门户管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_PORTAL_PAGE_COMPONENT', name :'组件页面管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_page_component_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_COMPONENTS', name :'组件管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_component_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PAGE', name :'页面管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_page_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_FRAGMENT_TEMPLATE', name :'碎片母板管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_fragmentTemplate_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_SITE', name :'站点管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_site_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_DISTRIBUTARY', name :'页面分流规则管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_distributary_rule_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_FRAGMENT_RULE', name :'碎片适配规则管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_fragment_adapter_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PAGE_CONFIG', name :'功能页面配置管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_page_config_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_BUSINESSFORMAT', name :'业务版式管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_business_format_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_GADGETMANAGER', name :'碎片管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_fragment_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PARAM', name :'门户参数管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_portal_config_tree&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_PAGESTYLE', name :'页面风格管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_pageStyle_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_TESTUSER', name :'内测用户管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_testUser_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_PORTAL_CACHERULE', name :'页面缓存规则管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_cacheRule_mgr&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_DIMENSIONALITY', name :'维度管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_DIMENSIONALITY_BROWSERGROUP', name :'浏览器管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_browser_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_DIMENSIONALITY_SCREENWIDTH', name :'屏宽管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_screenwidth_manager&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_DIMENSIONALITY_TERMINALGROUP', name :'终端屏宽分组管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_terminalGroup_manager&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_DATASRC', name :'数据源管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_DATASRC_SYSTEM', name :'系统数据源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_datasrc_catalog_mgr&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_RESOURCE', name :'资源管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_RESOURCE_PICTURE', name :'图片资源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_pic&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_CSS', name :'样式资源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_css&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_JS', name :'脚本资源', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_js&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_FILEPACKAGE', name :'文件包管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_filepackage&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_RESOURCE_LAYOUT', name :'布局管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_resource_layout&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_SECURITY', name :'安全管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_SECURITY_ORG', name :'组织管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_org_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_USER', name :'用户管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_user_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_ROLE', name :'角色管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_role_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_PERSONALINFO', name :'个人信息', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_personalInfo_mgr&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SECURITY_PASSWORD', name :'修改密码', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_password_mgr&BMEWebToken=null', children:[]}]}
+,{id: 'MENU_UES_CONSOLE_SYSMANAGER', name :'系统管理', isSelected :false, isDisabled :false, separate :false, children:[{id: 'MENU_UES_CONSOLE_SYSMANAGER_OPERATERECORD', name :'操作日志', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_operate_record&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SYSMANAGER_USERLOGINLOG', name :'登录日志', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_user_login_log&BMEWebToken=null', children:[]},{id: 'MENU_UES_CONSOLE_SYSMANAGER_SYSTEMCONFIG', name :'系统参数管理', isSelected :false, isDisabled :false, separate :false, url: '/ues/business.action?BMEBusiness=ues_system_config&BMEWebToken=null', children:[]}]}
+
+				//,{id: "com.as.oms.web.sys.theme",
+				//	icon: "",
+				//	name: "主题", 
+				//	children: [{
+				//					id: "bme.theme1",
+				//					name: "玫瑰红", 
+				//					disabled: false, 
+				//					seperator: false,
+				//					icon: "icons/mary.gif",
+				//					javascript: forwardUrl,
+				//					method: "",
+				//					url:"/ues/main.action?BMEWebToken="
+				//				}]}
+				//,	{id: "com.as.oms.web.sys.language",
+				//	icon: "",
+				//	name: "语言", 
+				//	children: [{
+				//					id: "bme.language1",
+				//					name: "中文", 
+				//					disabled: false, 
+				//					seperator: false,
+				//					icon: "icons/mary.gif",
+				//					javascript: forwardUrl,
+				//					method: "",
+				//					url:"/ues/main.action?language=zh_CN&BMETheme.name=default&BMEWebToken="
+				//				},
+				//				{
+				//					id: "bme.language2",
+				//					name: "English", 
+				//					disabled: false, 
+				//					seperator: false,
+				//					icon: "icons/mary.gif",
+				//					javascript: forwardUrl,
+				//					method: "",
+				//					url:"/ues/main.action?language=en&BMETheme.name=default&BMEWebToken="
+				//				}]}
+			]
+	};
+	//var alarmData = "resource/alarmlight.txt";
+	var loginData = {
+		user: "admin",
+		//loginDate: "2009-08-07 12:34:56",
+		ipAddress: "10.70.137.122"
+	};
+	var tabsData = {
+		pageType: "iframe",
+		data: [{
+			name: "Home", 
+			url: "/ues/business.action?BMEBusiness=ues_home&&BMEWebToken=",		
+			id: "home",
+			hideCloseIcon: true,
+			img:"/ues/theme/default/images/bme_home.gif"
+		}]
+	};
+	var userConf = { name: "ueswap" };
+	var logoutConf = { name: "&nbsp;", lnk: "/ues/logout.action", title: "退出", info: "确定退出?" };	//Logoout
+	var alarmConf = {id: "alarmContainer", name: "alarm", isDisabled: true, children: [
+	                    {id: "urgencyAlarm", name: "12" },
+	                    {id: "importanceAlarm", name: "1245" },
+	                    {id: "subordinationAlarm", name: "123"},
+	                    {id: "promptAlarm", name: "1"}
+	                ]};
+	var pluginData = {
+		hidden: true,
+		align: "left",
+		rePositionHandler: function(align){},
+		items: [
+			{id: "plugin1", name:"常用菜单", isSys: true, groupId: "0", icon: "/ues/theme/default/images/pluginbar/icon_01.png", contentUrl: "/ues/theme/default/jsp/plugin1.html"},
+			{id: "plugin2", name:"收藏夹", icon: "/ues/theme/default/images/pluginbar/icon_02.png", contentUrl: "/ues/theme/default/jsp/plugin2.html"},
+			{id: "plugin3", name:"最新业务", icon: "/ues/theme/default/images/pluginbar/icon_03.png", contentUrl: "/ues/theme/default/jsp/plugin3.html"},
+			{id: "plugin5", name:"快捷入口", icon: "/ues/theme/default/images/pluginbar/icon_05.png", contentUrl: "/ues/theme/default/jsp/plugin5.html"},
+			{id: "plugin6", name:"告警分析", icon: "/ues/theme/default/images/pluginbar/icon_06.png", contentUrl: "/ues/theme/default/jsp/plugin6.html"},
+			{id: "plugin7", name:"仪表盘", icon: "/ues/theme/default/images/pluginbar/icon_07.png", contentUrl: "/ues/theme/default/jsp/plugin7.html"},
+			{id: "plugin8", name:"资源接入", icon: "/ues/theme/default/images/pluginbar/icon_08.png", contentUrl: "/ues/theme/default/jsp/plugin8.html"}
+		]
+	};
+	
+	$(function() {
+		$.contents().init();
+		$(".tabpage").tabPage();
+		for(var i=0;i<tabsData.data.length;i++)
+		{
+			$.menuClickHandler(tabsData.data[i]);
+		}
+		//修改退出确认框
+		$(".fun_logout").attr("onclick","");
+		$(".fun_logout").click(function(){
+			//document.getElementById("home_iframe").contentWindow.$.msgbox.setLabel({okButton:"确定",cancelButton:"取消"});
+			document.getElementById("home_iframe").contentWindow.$.popwin.I18N.BUTTON_OK = "确定";
+			document.getElementById("home_iframe").contentWindow.$.popwin.I18N.BUTTON_CANCEL = "取消";
+			document.getElementById("home_iframe").contentWindow.$.msgbox.confirm(logoutConf.title,logoutConf.info,function(){location.replace(logoutConf.lnk);});
+		});
+		
+		// 保存语言环境信息，目前仅供uxe定制的富文本编辑组件使用
+		jBME.theme.timePicker = "zh-CN";
+		
+		// 工程目录：/UXE_console
+		jBME.theme.contextPath = "/ues";
+		
+		//uxe定制目录，可供用户自己定制(uxe)
+		jBME.theme.uxeCustomPath = "uxe";
+		if (!jBME.theme.uxeCustomPath || jBME.theme.uxeCustomPath == "null")
+		{
+			jBME.theme.uxeCustomPath = "uxe";
+		}
+		
+		//jBME.theme.customPath = "/ues/theme/default"; // "/UXE_console/theme/default"
+		//uxe定制目录，可供用户自己定制(/UXE_console/uxe)
+		jBME.theme.uxeContextPath = "/ues/uxe";
+	});
+	
+</script>
+<style>
+	html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; padding:70px 0 0 0; overflow:hidden;overflow-y:hidden!important; }
+	html,body { height:100%;}
+	.top_menu{min-width:1000px;}
+	.top_fun{min-width:1000px;}
+</style>
+<title>UES</title>
+</head>
+
+<body scroll="no">
+	<div id="topFrame"></div>
+	<div class="tabpage bc_tab framework" id="tabpage"></div>
+	<div id="pluginbar">
+		<div id="pluginbarPop" class="pluginbar_pop pluginbarpop_float"></div>
+	</div>
+
+<div class='search_pop' id='searchPopBox' style="display: none;">
+<div class="search_pop_title">
+<ul>
+	<li class="searchPop_title_left"></li>
+	<li class="searchPop_title_center"><span>&nbsp;&nbsp;&nbsp;</span></li>
+	<li class="searchPop_title_right"></li>
+</ul>
+</div>
+<div class="porlet_nofloat"></div>
+<div class='searchPop_top'>
+<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+	<tr>
+		<td>
+		<div class='searchPop_top_left'></div>
+		</td>
+		<td class='searchPop_top_center'></td>
+		<td>
+		<div class='searchPop_top_right'></div>
+		</td>
+	</tr>
+</table>
+</div>
+<div class='searchPop_center_left'>
+<div class='searchPop_center_right'>
+<div class='searchPop_center_center'>
+<div class="searchPop_content">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="30%"><select id="searchType" name="search_type"
+			style="width: 96%; margin-right: 4px;">
+			<option value="">Choose</option>
+		</select></td>
+		<td width="70%"><input type="text" value="" name="search_text"
+			id="searchText" class="input_text_normal" style="width: 98%;" /></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td class="btn_box">
+		<span class="bc_btn bc_ui_ele"><div><div><img
+			src="/ues/theme/default/images/search_icon.png"
+			align="absmiddle" />Search</div></div></td>
+	</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class='searchPop_bottom'>
+<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+	<tr>
+		<td>
+		<div class='searchPop_bottom_left'></div>
+		</td>
+		<td class='searchPop_bottom_center'></td>
+		<td>
+		<div class='searchPop_bottom_right'></div>
+		</td>
+	</tr>
+</table>
+</div>
+</div>
+</body>
+</html>
